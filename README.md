@@ -60,55 +60,11 @@ This project analyzes the **maintenance and reliability of a ferry system** usin
 * **Monte Carlo simulations** confirmed analytic failure time estimates.
 * **Discrete-time models** approximated continuous-time dynamics accurately for small time steps.
 
-## Repository Structure
-
-```
-.
-├── src/
-│   ├── markov_ct_simulation.m    # MATLAB continuous-time simulation
-│   ├── markov_dt_simulation.m    # MATLAB discrete-time simulation
-│   ├── failure_analysis.m        # Monte Carlo expected failure time
-│   ├── transition_matrix.m       # Builds Q and P matrices
-│
-├── results/
-│   ├── stationary_distributions.txt
-│   ├── average_speed_analysis.txt
-│   ├── failure_time_histogram.png
-│   └── probability_results.txt
-│
-├── report/
-│   └── Ferry_Maintenance_Report.pdf
-│
-└── README.md
-```
-
 ## Usage Instructions
 
 ### Requirements
 
 * MATLAB or Octave
-
-### Running Simulations
-
-1. Run continuous-time simulation:
-
-   ```matlab
-   markov_ct_simulation
-   ```
-
-2. Run discrete-time simulation:
-
-   ```matlab
-   markov_dt_simulation
-   ```
-
-3. Run expected time-to-failure analysis:
-
-   ```matlab
-   failure_analysis
-   ```
-
-Results will be saved in the `results/` folder.
 
 ## Technologies
 
